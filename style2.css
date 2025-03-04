@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+}
+.container {
+    width: 75%;
+}
+header {
+    background: #6A1B9A;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.slogan {
+    text-align: center;
+}
+.sidebar{
+    background: #4A148C;
+}
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    color: #FFEB3B;
+}
+.content {
+    padding: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 50%;
+    flex-grow: 1;
+}
+footer {
+    background: #6A1B9A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
